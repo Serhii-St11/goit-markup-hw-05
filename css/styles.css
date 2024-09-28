@@ -609,21 +609,22 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 408px;
   height: 80%;
- min-height: 584px; 
+  min-height: 584px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #fcfcfc;
   overflow: auto;
   padding: 72px 24px 24px;
@@ -633,8 +634,6 @@ img {
   opacity: 1;
   pointer-events: auto;
 }
-
-
 
 .modal-close-btn {
   outline: none;
@@ -649,20 +648,21 @@ img {
   padding: 0;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #e7e9fc; 
+  background-color: #e7e9fc;
   fill: #2e2f42;
   stroke-width: 1px;
   line-height: 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-icon {
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  border: none; 
+  border: none;
   background-color: #404bbf;
   fill: #ffffff;
 }
@@ -703,7 +703,7 @@ img {
   padding-left: 38px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
+
   outline: transparent;
 }
 
@@ -716,6 +716,10 @@ img {
 }
 
 .review-form-fild-wraper {
+  margin-bottom: 8px;
+}
+
+.review-form-fild-wraper-comment {
   margin-bottom: 16px;
 }
 
@@ -736,7 +740,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4); 
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
@@ -771,17 +775,18 @@ img {
   margin-right: 8px;
   cursor: pointer;
   fill: transparent;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   > .review-form-custom-checkbox {
-    border: none;
+  border: none;
   background-color: #404bbf;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
-
 
 .review-form-checkbox:focus
   + .review-form-checkbox-label
@@ -802,16 +807,11 @@ img {
   color: #4d5ae5;
 }
 
-/* .modal-backdrop-form-submit-btn {
-  display: flex;
-  justify-content: center;
-} */
-
 .review-form-submit-btn {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -819,10 +819,10 @@ img {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
 }
 
